@@ -22,7 +22,7 @@ def take_snapshot():
     cv2.destroyAllWindows()
 
 def upload_file(img_name):
-    access_token = "YN6QGBztqNwAAAAAAAAAAcpVBInPhZgtreP6g8ehCjHv0pkOOIOf95pBHoX-lYge"
+    access_token = "sl.A9fejo6ey0-sUM7OvrMPVJDM26NaZZkuDzgaCynNa2CpwGxh2nHbFXzlgFLbZgHxUxeasx98dWCIOaNBtXSAWm1mb8e1K9bjGm6EpQBEj-pNdOsdygRjSDY-zO9jqI6Jpdbmemw"
     file_from = img_name
     file_to = "/Python/" + img_name
     dbx = dropbox.Dropbox(access_token)
